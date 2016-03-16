@@ -1,0 +1,22 @@
+Mincu Dragos-Alexandru
+331CA
+
+Tema 1 SO
+
+    list.c + list.h:
+        Defineste structura de lista simplu inlantuita utilizata pentru bucket-
+urile structurii de hashset. Defineste operatiile de creare si stergere lista,
+adaugare element, eliminare element, cautare element.
+        Functia de adaugare nu include duplicate.
+
+    hashset.c + hashset.h:
+        Definesc structure de hashset. Functiile se folosesc de functia de hash
+pentru a identifica bucket-ul(lista) si apoi de functiile definite de lista
+pentru operatii(adaugare, stergere, cautare).
+
+    hash.c + hash.h:
+        Contin functia de hash pentru stringuri.
+        
+    main.c:
+        Initializeaza structura de hashset si contine functia ce face parsarea
+comenzilor primite de la tastatura sau din fisiere.
